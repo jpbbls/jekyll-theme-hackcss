@@ -10,7 +10,7 @@ title: jpbbls
 description: > # this means to ignore newlines until "baseurl:"
   A minimalistic theme for Jekyll, based on hack.css
 repository: https://github.com/jpbbls/jekyll-theme-hackcss
-baseurl: /root  # the subpath of your site, e.g. /blog
+baseurl: /_site  # the subpath of your site, e.g. /blog
 url: https://jpbbls.netlify.com  # the base hostname & protocol for your site
 
 # Build settings
@@ -58,6 +58,9 @@ social:
   - service: twitter
     username: jpbbls
     link: https://twitter.com/jpbbls
+  - service: linkedin
+    username: jpbbls
+    link:
 
 # Plugins
 gems:
